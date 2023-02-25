@@ -206,6 +206,7 @@ public class Inicio extends javax.swing.JFrame {
 
     private void AggTxtActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AggTxtActionPerformed
         // TODO add your handling code here:
+        this.a.cargarArchivo();
      
     }//GEN-LAST:event_AggTxtActionPerformed
 

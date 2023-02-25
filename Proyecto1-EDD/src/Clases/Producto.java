@@ -8,21 +8,18 @@ package Clases;
  *
  * @author Andrea
  */
-public class Almacen {
-    public char key;
+public class Producto {
+    public String Almacen;
     public String Nombre;
-    public String Productos;
-    public Almacen next;
+    public int Cantidad;
+    public Producto next;
 
-    public Almacen(char key, String Nombre, String Productos) {
-        this.key = key;
+    public Producto(String Almacen, String Nombre, int Cantidad ) {
+        this.Almacen = Almacen;
         this.Nombre = Nombre;
-        this.Productos = Productos;
+        this.Cantidad = Cantidad;
         this.next = null;
     }
     
-    public void EliminarProducto(String producto){
-        this.Productos = Productos.replaceAll("/"+producto," ");
-    }
     
 }
